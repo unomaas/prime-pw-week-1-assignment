@@ -20,7 +20,7 @@ Answer 2: Running "ls" in a folder containing files would list each of the files
 Answer: "touch" is the command that would let you quickly create a file.  Bonus, you can also specify what type of file it'll be with the file extension (e.g., .pdf or .txt). 
 
 # 7 - Run 'git --version' in your terminal. What is the output?
-Answer: "git version 2.31.0"
+Answer: "git version 2.31.0" 
 
 # 8 - Why would you run the command 'git status'?
 Answer: Running the command "git status" would display the working directory and the staging area.  Basically you can then see what changes are being staged vs what are not for the files being tracked by git.  
