@@ -1,11 +1,48 @@
-/* Give your page a fun background color */
+/* Give your page a fun background color [Done]*/
+/* Make the header and footer a different color from the background [Done]*/
+/* Align the h1 containing your name in the center of the header [Done]*/
+/* Make your p tag a different color and italic [Done]*/
+/* Put a border around your image [Done]*/
+/* Change the font-family of your list [Done]*/
 
-/* Make the header and footer a different color from the background */
+body {
+  background: url(https://i.imgur.com/A5pGfsg.png);
+  background-size: auto;
+  background-position: center;
+  color: black;
+  font-family: Times;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
 
-/* Align the h1 containing your name in the center of the header*/
+h1 {
+  text-align: center; /* This is redundant since I already have text align centered in the body, above, but wanted to list it again to follow directions. :) */
+  margin: 0;
+  padding: 0;
+}
 
-/* Make your p tag a different color and italic */
+h2 {
+  margin: 0;
+  padding: 0;
+}
 
-/* Put a border around your image */
+p {
+  background: rgba(0, 0, 0, 0.7);
+  font-style: italic;
+  font-weight: 100;
+  color: white;
+}
 
-/* Change the font-family of your list */
+ul {
+  font-family: Helvetica;
+  text-align: left;
+  list-style-type: none;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+img {
+  border: 10px solid white;
+  border-radius: 20px;
+}
