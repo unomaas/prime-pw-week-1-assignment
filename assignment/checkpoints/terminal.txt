@@ -29,4 +29,4 @@ Answer: Running the command "git status" would display the working directory and
 Answer: Running the command "git add ." would add the entire working directory, and all changes made to it, to the staging area.  This would set you up to be ready for a commit.
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
-Answer: The command to push your committed changes to your repo are "git push origin master", assuming that we've already done a "git commit" with an appropriately tagged message.  
+Answer: The command to push your committed changes to your repo are "git push -u origin master", assuming that we've already done a "git commit" with an appropriately tagged message.  
